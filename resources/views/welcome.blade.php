@@ -17,6 +17,8 @@
 <body class="antialiased">
     <h1 class="text-4xl font-bold">{{ __('welcome.welcome') }}</h1>
     <h2 class="text-2xl text-blue-400">{{ __('welcome.name-this-color') }}</h2>
+<p>{{ __('auth.register.email') }}</p>
 </body>
 
 </html>
+
