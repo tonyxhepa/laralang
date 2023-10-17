@@ -1,16 +1,14 @@
 <?php
 
+use App\Http\Controllers\LocalizationController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Middleware\Localization;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return redirect(app()->getLocale());
-});
+Route::get('/localization/{locale}', LocalizationController::class)->name('localization');
 
-Route::prefix('{locale}')
-    ->middleware(Localization::class)
+Route::middleware(Localization::class)
     ->group(function () {
 
         Route::view('/', 'welcome');

@@ -16,8 +16,9 @@ class Localization
      */
     public function handle(Request $request, Closure $next): Response
     {
-        app()->setLocale($request->segment(1));
-        URL::defaults(['locale' => $request->segment(1)]);
+
+        app()->setLocale(session('localization', config('app.locale')));
+
         return $next($request);
     }
 }

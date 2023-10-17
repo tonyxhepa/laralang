@@ -23,6 +23,6 @@ return [
         'password' => 'Password',
         'password_confirmation' => 'Confirm Password',
     ],
-    'name' => 'Auth Name',
+    'login-message' => 'You are logged in!'
 
 ];

@@ -20,5 +20,6 @@ return [
             'already_registered' => 'Ya registrado',
             'register' => 'Registro'
       ],
+      'login-message' => '¡Ya has iniciado sesión!'
 
 ];
