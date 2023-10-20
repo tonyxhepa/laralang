@@ -3,5 +3,6 @@
     "Password": "Contraseña",
     "Remember me": "Acuérdate de mí",
     "Name this color": "Nombra este color",
-    "Welcome": "Bienvenido"
+    "Welcome": "Bienvenido",
+    "{0} There are no users|[1,*] There are :value users": "{0} No hay usuarios|[1,*] Hay :value usuarios"
 }

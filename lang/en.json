@@ -2,5 +2,6 @@
     "Email": "Email",
     "Password": "Password",
     "Remember me": "Remember Me",
-    "Welcome": "Welcome"
+    "Welcome": "Welcome",
+    "{0} There are no users|[1,*] There are :value users": "{0} There are no users|[1,*] There are :value users"
 }
